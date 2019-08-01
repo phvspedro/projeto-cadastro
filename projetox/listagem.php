@@ -16,8 +16,9 @@ if (!isset($_SESSION['id']) && empty($_SESSION['id'])) {
         <link rel="stylesheet" href="css/bootstrap.css"/>
     </head>
 
-    <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <body >
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ">
                         <a class="nav-link" href="index.php">Home</a>
@@ -26,13 +27,14 @@ if (!isset($_SESSION['id']) && empty($_SESSION['id'])) {
                         <a class="nav-link" href="adicionar.php">Cadastrar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="editar.php">Editar</a>
+                        <a class="nav-link" href="editar.php">Listar Usuários</a>
                     </li>
                     <li class="nav-item justify-content-end">
                         <a class="nav-link" href="sair.php">Sair</a>
                     </li>
                 </ul>
             </nav>
+            
         <div class="container mt-5">
             <table class="table table-hover" width="100%">
             <thead class="table-striped">

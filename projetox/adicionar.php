@@ -41,7 +41,7 @@ if(isset($_POST['nome']) && !empty($_POST['nome']) &&
                         <a class="nav-link" href="adicionar.php">Cadastrar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="editar.php">Editar</a>
+                        <a class="nav-link" href="editar.php">Listar Usuários</a>
                     </li>
                     <li class="nav-item justify-content-end">
                         <a class="nav-link" href="sair.php">Sair</a>
@@ -55,13 +55,13 @@ if(isset($_POST['nome']) && !empty($_POST['nome']) &&
         <form method="POST">
 
             Nome:<br/>
-            <input type="text" class="form-control col-2" name="nome" /><br/>
+            <input type="text" style=" max-width: 250px;" class="form-control mx-sm-3 " name="nome" /><br/>
             E-mail:<br/>
-            <input type="text" class="form-control col-2" name="email" /><br/>
+            <input type="email" style=" max-width: 250px;" class="form-control col-3 mx-sm-3" name="email" /><br/>
             Senha:<br/> 
-            <input type="text" class="form-control col-2" name="senha" /><br/>
+            <input type="text" style=" max-width: 250px;" class="form-control mx-sm-3" name="senha" /><br/>
             Endereço:<br/>
-            <input type="text" class="form-control col-2" name="end" /><br/><br/>
+            <input type="text" style=" max-width: 250px;" class="form-control mx-sm-3" name="end" /><br/><br/>
 
             <input type="submit" class="btn btn-warning" value="Cadastrar" /><br/>
 

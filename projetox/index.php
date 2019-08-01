@@ -25,7 +25,7 @@ if (!isset($_SESSION['id']) && empty($_SESSION['id'])) {
                         <a class="nav-link" href="adicionar.php">Cadastrar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="editar.php">Editar</a>
+                        <a class="nav-link" href="editar.php">Listar Usuários</a>
                     </li>
                     <li class="nav-item justify-content-end">
                         <a class="nav-link" href="sair.php">Sair</a>
@@ -33,8 +33,8 @@ if (!isset($_SESSION['id']) && empty($_SESSION['id'])) {
                 </ul>
             </nav>
             
-            <h1 class="h1 text-center mt-5 mb-2">Seja bem-vindo!</h1>
-            <h3 class="h3 text-center">No menu você será direcionado as funcionalidades desse sistema.</h3>
+            <h1 class="h1 text-center mt-5 mb-2">Seja Bem-Vindo!</h1>
+            <h3 class="h3 text-center">No menu você será direcionado às funcionalidades desse sistema.</h3>
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>

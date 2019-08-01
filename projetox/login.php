@@ -34,14 +34,14 @@ if ($sql->rowCount() > 0) {
     </head>
  
     <body>
-        <div class="container col-6">  
+        <div class="container">  
         <h2 class="text-center mt-5">Gerenciar usuarios</h2>
             <form method="POST" class="text-center" style="margin: 20%">
 
                 E-mail:<br/>
-                <input type="email" name="email"  placeholder="E-mail" class="form-control "  /><br/><br/>
+                <input type="email" name="email" class="form-control mx-sm-3"  /><br/><br/>
                 Senha:<br/> 
-                <input type="text" name="senha" style="max-width:200px; min-width:200px; margin-left: 32%" placeholder="Senha" class="form-control"/><br/><br/>
+                <input type="password" name="senha" class="form-control mx-sm-3"/><br/><br/>
 
                 <input type="submit" value="Entrar" class="btn btn-primary" /><br/>
 

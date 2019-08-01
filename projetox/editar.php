@@ -53,7 +53,7 @@ if ($sql->rowCount()>0) {
                         <a class="nav-link" href="adicionar.php">Cadastrar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="editar.php">Editar</a>
+                        <a class="nav-link" href="editar.php">Listar Usuários</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="sair.php">Sair</a>
@@ -67,11 +67,11 @@ if ($sql->rowCount()>0) {
             <form method="POST" >
 
             Nome:<br/>
-            <input type="text" name="nome" class="form-control col-2" value="<?php echo $dado['nome']; ?>"/><br/>
+            <input type="text" name="nome" style=" max-width: 250px;" class="form-control mx-sm-3" value="<?php echo $dado['nome']; ?>"/><br/>
             E-mail:<br/>
-            <input type="text" name="email" class="form-control col-2" value="<?php echo $dado['email']; ?>"/><br/>
+            <input type="text" name="email" style=" max-width: 250px;" class="form-control mx-sm-3" value="<?php echo $dado['email']; ?>"/><br/>
             Endereço:<br/>
-            <input type="text" name="end" class="form-control col-2 " value="<?php echo $dado['end']; ?>"/><br/><br/>
+            <input type="text" name="end" style=" max-width: 250px;" class="form-control mx-sm-3 " value="<?php echo $dado['end']; ?>"/><br/><br/>
 
             <input type="submit" class="btn btn-warning" value="Atualizar" /><br/>
 
